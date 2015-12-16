@@ -1,0 +1,48 @@
+
+pinne	nummer	port	timer				remap
+
+p4r		död via	26?
+p4g		27		PB14	TIM1_CH2N			TIM15_CH1
+p4b		28		PB15	TIM1_CH3N			TIM15_CH2
+
+p5r		10		PA0		TIM2_CH1
+p5g		11		PA1		TIM2_CH2
+p5b		21		PB10						TIM2_CH3
+
+p6r		16		PA6		TIM3_CH1			TIM16_CH1
+p6g		17		PA7		TIM3_CH2			TIM17_CH1
+p6b		18		PB10	TIM3_CH3			TIM1_CH2N
+
+p7r		12		PA2		TIM2_CH3 TIM15_CH1
+p7g		13		PA3		TIM2_CH4 TIM15_CH2
+p7b		45		PB8		TIM4_CH3 TIM16_CH1
+
+p8r		32		PA11	TIM1_CH4
+p8g		22		PB11						TIM2_CH4
+p8b		19		PB1 	TIM4_CH4			TIM1_CH3N
+
+
+
+
+pinne	nummer	port	timer				remap
+
+p4r		26		PB13	*TIM1_CH1N
+p4g		27		PB14	*TIM1_CH2N			
+p4b		28		PB15	*TIM1_CH3N			
+
+p5r		10		PA0		*TIM2_CH1
+p5g		11		PA1		*TIM2_CH2
+p5b		21		PB10						*TIM2_CH3
+
+p6r		16		PA6		*TIM3_CH1			
+p6g		17		PA7		*TIM3_CH2			
+p6b		18		PB10	*TIM3_CH3			
+
+p7r		12		PA2		*TIM15_CH1
+p7g		13		PA3		*TIM15_CH2
+p7b		45		PB8		*TIM16_CH1
+
+p8r		32		PA11	*TIM1_CH4
+p8g		22		PB11						*TIM2_CH4
+p8b		19		PB1 	*TIM3_CH4
+
