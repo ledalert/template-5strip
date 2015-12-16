@@ -1,0 +1,7 @@
+To test connection
+
+stm32flash /dev/ttyUSB0 -R cs.rts -B cs.dtr -b 921600
+
+To upload
+
+stm32flash /dev/ttyUSB0 -R cs.rts -B cs.dtr -b 921600 -w build/bjornstrips.bin
